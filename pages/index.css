@@ -112,15 +112,10 @@
   line-height: 20px;
   color: #838383;
 }
-.header__footer address {
+.header_paragraph_place {
   position: absolute;
   right: 80px;
   bottom: 40px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
 }
 
 .recipes {

@@ -28,31 +28,37 @@
           />
           <ul class="nav__links">
             <li class="nav__link"><a href="#recipes">Receitas</a></li>
-            <li class="nav__link"><a href="#">Reservar uma mesa</a></li>
-            <li class="nav__link"><a href="#">Contatos</a></li>
+            <li class="nav__link">
+              <a href="#reservation">Reservar uma mesa</a>
+            </li>
+            <li class="nav__link"><a href="#footer">Contatos</a></li>
           </ul>
         </nav>
+
+        <h1 class="header__title">
+          <span>Café especial</span> na biblioteca Triple Peaks
+        </h1>
+
         <div class="header__content">
-          <h1 class="header__title">
-            <span>Café especial</span>na biblioteca Triple Peaks
-          </h1>
           <p class="header__description">
             Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
             você e vibrações aconchegantes para soltar a criatividade.
           </p>
+
           <img
             src="./images/inside_coffee_shop.png"
             alt=""
             class="header__image"
           />
         </div>
+
         <div class="header__footer">
           <p class="header__paragraph">Horários:</p>
           <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
           <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
-          <address class="header__paragraph">
+          <p class="header__paragraph header_paragraph_place">
             200 Success Avenue, a cidade de Triple Peaks
-          </address>
+          </p>
         </div>
       </header>
       <main class="content">
@@ -106,9 +112,9 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer"></footer>
     </div>
   </body>
 </html>
