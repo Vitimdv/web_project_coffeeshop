@@ -1,0 +1,33 @@
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  width: 105px;
+  height: 39px;
+}
+.nav__links {
+  margin: 0;
+  margin-top: 30px;
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.nav__link {
+}
+
+.nav__link a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+}
