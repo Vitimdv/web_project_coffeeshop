@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .page {
   background-color: #ffffff;
   min-width: 1100px;
