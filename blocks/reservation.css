@@ -10,10 +10,11 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
-  margin: 0 auto 80px;
+  margin: 100px auto 80px;
 }
 
 .reservation__form {
   max-width: 385px;
-  margin: 0 auto 120px;
+  margin: auto;
+  padding-bottom: 120px;
 }
